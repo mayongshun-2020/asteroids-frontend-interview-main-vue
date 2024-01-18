@@ -1,0 +1,41 @@
+
+@mixin borderBottom($borderColor: #9499C3) {
+  border-bottom: 1px solid $borderColor;
+}
+@mixin fontStyle($fontSize, $color: #fff, $lineHeight: 2, $fontStyle: normal, $fontWeight: 400, $fontFamily: Lato) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-family: $fontFamily;
+}
+
+
+.table-box {
+  table {
+    margin-top: 16px;
+
+    tr {
+      th {
+        padding: 0 12px;
+        @include fontStyle(10px, #fff, 32px, normal, 700, Lato);
+        @include borderBottom();
+      }
+
+      td {
+        padding: 0 12px;
+        @include fontStyle(11px, #9499C3, 32px, normal, 400, Lato);
+        @include borderBottom();
+        &:first-child {
+          @include fontStyle(11px, #fff, 100%, normal, 700, Lato);
+          text-decoration-line: underline;
+        }
+
+        &.green-text {
+          @include fontStyle(11px, #00cf67, unset, normal, 400, Lato);
+        }
+      }
+    }
+  }
+}

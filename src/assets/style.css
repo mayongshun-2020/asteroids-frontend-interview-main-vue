@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('~@/assets/poppins-v15-latin-regular.eot');
+  src: url('~@/assets/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('~@/assets/poppins-v15-latin-regular.woff2') format('woff2'),
+       url('~@/assets/poppins-v15-latin-regular.woff') format('woff'),
+       url('~@/assets/poppins-v15-latin-regular.ttf') format('truetype'),
+       url('~@/assets/poppins-v15-latin-regular.svg#poppins-v15-latin-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  src: url('~@/assets/fonts/lato-v17-latin-700.eot');
+  src: url('~@/assets/fonts/lato-v17-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('~@/assets/fonts/lato-v17-latin-700.woff2') format('woff2'),
+       url('~@/assets/fonts/lato-v17-latin-700.woff') format('woff'),
+       url('~@/assets/fonts/lato-v17-latin-700.ttf') format('truetype'),
+       url('~@/assets/fonts/lato-v17-latin-700.svg#lato-v17-latin-700') format('svg');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: normal;
+  src: url('~@/assets/fonts/lato-v17-latin-regular.eot');
+  src: url('~@/assets/fonts/lato-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('~@/assets/fonts/lato-v17-latin-regular.woff2') format('woff2'),
+       url('~@/assets/fonts/lato-v17-latin-regular.woff') format('woff'),
+       url('~@/assets/fonts/lato-v17-latin-regular.ttf') format('truetype'),
+       url('~@/assets/fonts/lato-v17-latin-regular.svg#lato-v17-latin-regular') format('svg');
+  font-display: swap;
+}
+html, body {
+  background-color: #191A29; 
+}
